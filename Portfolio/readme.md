@@ -1,21 +1,21 @@
 # Project1 - Simple Portfolio
 
-Welcome to Project1, a stylish and minimalistic portfolio created using HTML and CSS. This project is part of the "webpack1" repository.
+Welcome to Project1, a stylish and simple portfolio created using HTML and CSS. This project is part of the "WEBPACK-1" repository.
 
 ## Description
 
-Project1 is a basic portfolio that serves as a canvas for showcasing your skills and projects. It provides a clean and elegant design, offering a great starting point for building your personal portfolio.
+Project1 is a basic portfolio that serves as a canvas for showcasing your skills and your contact information. It provides a clean and elegant design, offering a great starting point for building your personal portfolio.
 
 ## Getting Started
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/webpack1.git
+    git clone https://github.com/mustafalanewala/WEBPACK-1.git
     ```
 
 2. **Navigate to the Project1 Directory:**
     ```bash
-    cd webpack1/project1
+    cd WEBPACK-1/1-Portfolio
     ```
 
 ## Usage
