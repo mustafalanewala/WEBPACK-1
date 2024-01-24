@@ -1,0 +1,147 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 26px;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: #111;
+    text-align: left;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+p {
+    color: #333;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.img-circle {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#header {
+    padding: 3rem;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+#header p {
+    font-size: 25pt;
+    color: #fff;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+progress {
+    width: 50%;
+    height: 20px;
+    color: #111;
+    background: #555;
+    border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+    background: #222;
+}
+
+
+form {
+    text-align: center;
+    margin-top: 0;
+}
+
+.submit {
+    background-color: #444;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+    width: 71%;
+}
+
+.submit:hover {
+    background-color: #222;
+}
+
+textarea {
+    height: 100px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+#contacts i {
+    font-size: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: #000;
+}
+
+#contacts a {
+    text-decoration: none;
+}
+
+#contacts i:hover {
+    opacity: 0.8;
+}
+
+#contacts {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #444;
+}
