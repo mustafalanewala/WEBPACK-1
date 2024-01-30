@@ -15,7 +15,7 @@ This project is a dynamic quote generator created using HTML, CSS, and JavaScrip
 
 2. **Navigate to the Quote Generator Directory:**
     ```bash
-    cd WEBPACK-1/2-QuoteGenerator
+    cd WEBPACK-1/2-Quote Generator
     ```
 
 ## Usage 📖
