@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("https://source.unsplash.com/random/?weather") no-repeat center center
+  background: 
+    url("img.jpg") no-repeat center center
       fixed;
   background-size: cover;
   height: 100vh;
@@ -26,9 +27,20 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 4rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: -35px;
+  margin-top: -5px;
+  opacity: 0.68; 
+  font-weight: bolder;
+}
+
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 200;
 }
 
 .search-container {
@@ -76,7 +88,7 @@ h1 {
 .weather-card {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 20px;
-  padding: 30px;
+  padding: 28px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
@@ -113,6 +125,9 @@ footer {
   color: #ccc;
 }
 
+#weather-icon{
+  letter-spacing:4px;
+}
 /* Media query for smaller screens */
 @media only screen and (max-width: 600px) {
   .container {
