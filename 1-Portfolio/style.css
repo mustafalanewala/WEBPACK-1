@@ -71,15 +71,12 @@ li {
 progress {
     width: 50%;
     height: 20px;
-    color: #111;
-    background: #555;
     border-radius: 10px;
 }
 
-progress::-moz-progress-bar {
-    background: #222;
+progress::-webkit-progress-value {
+    background-color: #1b1b1b; 
 }
-
 
 form {
     text-align: center;
@@ -137,6 +134,11 @@ textarea {
 
 #contacts {
     text-align: center;
+}
+
+.brands-icons img{
+    width:30px;
+    height: auto;
 }
 
 .copyright {
