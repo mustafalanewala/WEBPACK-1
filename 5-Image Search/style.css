@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.244); 
+    border-radius: 20px;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#searchInput {
+    padding: 10px 16px;
+    width: 60%;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 20px;
+    background-color: #254ba4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #254ba4dc;
+}
+
+#imageGallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageItem {
+    margin: 10px;
+    transition: transform 0.3s ease;
+    flex: 1 0 calc(33.33% - 20px); 
+}
+
+.imageItem img {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    font-size: 20px;
+}
+
+/* Media query for phones */
+@media (max-width: 767px) {
+    body {
+        margin: 20px;
+    background-attachment: fixed;
+
+    }
+    .imageItem {
+        flex-basis: calc(100% - 20px); 
+    }
+}
