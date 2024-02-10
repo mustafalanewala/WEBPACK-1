@@ -43,7 +43,7 @@ Join us in shaping the future of web development! Whether you're fixing bugs, ad
 Encountered a bug or have a suggestion for improvement? Don't hesitate to open an issue. We'll work together to resolve any issues and enhance the projects.
 
 ## License:
-This repository is licensed under the [MIT License](LICENSE), granting you the freedom to use, modify, and distribute the code as you see fit.
+This repository is licensed under the [MIT License](LICENCE), granting you the freedom to use, modify, and distribute the code as you see fit.
 
 ---
 
