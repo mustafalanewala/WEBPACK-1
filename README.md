@@ -12,22 +12,10 @@ This repository hosts an exhilarating collection of web development projects pow
 
 ## Projects Included:
  - ### Portfolio 💼
- - Live Demo: [Here](#)
-
  - ### Quote Generator ✨
- - Live Demo: [Here](#)
-  
  - ### Weather App 🌦️
- - Live Demo: [Here](#)
-  
  - ### Calendar 📅
- - Live Demo: [Here](#)
-  
  - ### Image Search 📷
- - Live Demo: [Here](#)
-
-## Deployment:
-All projects are seamlessly hosted on **Vercel**, ensuring optimal performance and accessibility. Visit the live demos provided for each project and immerse yourself in the experience!
 
 ## How to Run:
 1. **Clone** this repository to your local machine.
